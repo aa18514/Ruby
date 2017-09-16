@@ -1,0 +1,4 @@
+INCLUDE "prelude.rby"
+
+S2 = fork ; [min, max]. 
+current = row 3 S2.

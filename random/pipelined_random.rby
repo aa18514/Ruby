@@ -1,0 +1,4 @@
+INCLUDE "prelude.rby". 
+
+Q2 = snd fork; rsh; [add; DI 0, id].
+P2 = snd (ev 2)^~1;Q2^4; fork^~1.  

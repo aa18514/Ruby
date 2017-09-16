@@ -1,0 +1,8 @@
+#requires 3**n inputs
+INCLUDE "prelude.rby"
+
+ops = VAR a b c. <a, b, c> $rel (`mult` <`mult` <a, b> c). 
+ttree n R = IF(n $eq 1) THEN R
+			ELSE(g n; [ttree (n - 1) R, ttree (n - 1) R, ttree (n - 1) R]; R). 
+g n = group 3(3 $exp(n - 1)).
+current = ttree 2 mut. 

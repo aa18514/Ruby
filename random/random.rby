@@ -1,0 +1,4 @@
+#random ruby design
+INCLUDE "prelude.rby".
+Q1 = snd fork; rsh; [add, DI 0^~1].
+P1 =Q1^4; fork^~1.

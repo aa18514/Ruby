@@ -1,0 +1,5 @@
+INCLUDE "prelude.rby"
+
+M0 = MC^4. 
+MC = (snd[D, D]; fork; fst mult);rsh;fst add).
+current = M0.

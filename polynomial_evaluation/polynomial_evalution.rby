@@ -1,0 +1,6 @@
+INCLUDE "prelude.rby"
+
+X = "x". 
+n = 3.
+multS = pi1^~1; mult. 
+P1 = pi2; fst (pair 2); snd mult; rdr 1(fst mult; add).
